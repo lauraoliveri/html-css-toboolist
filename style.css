@@ -3,16 +3,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto",sans-serif;
 }
 
 /* Background colors and margins */
 
-main {
+.container-all {
     margin: 0 auto;
     margin-top: 40px;
     width: 50%;
     background-color: white;
+    border-radius: 20px;
 }
 
 header {
@@ -23,6 +24,24 @@ header {
 
 body {
     background-color: #F6F8F9;
+}
+
+hr {
+    color: #fcfeff;
+}
+.container-1 {
+    padding: 20px;
+    margin-bottom: 1px;
+}
+
+.container-2 {
+    padding: 20px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.thirdblock,.secondblock,.firstblock {
+    padding: 10px;
 }
 
 /* logo */
@@ -60,17 +79,61 @@ strong {
 
 /* Checkmark boxes */
 .check {
-    border: 2px solid green;
+    color: green;
+    border: 1px solid green;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     display: inline-block;
     text-align: center;
+    line-height: 20px;
 }
 
+.checkx {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Colored boxes */
 .colouredbox {
     display: inline-block;
-    border: 1px solid grey;
-    border-radius: 20%;
+    border-radius: 50px;
     background-color: aquamarine;
+    padding: 8px 18px;
+}
+
+.editorial {
+    background-color: #45ABEA;
+    color: white;
+}
+
+.q1 {
+    background-color: #9C72E4;
+    color: white;
+}
+
+.recruit {
+    background-color: #64C0A9;
+    color: white;
+}
+
+.mobile {
+    background-color: #F29E33;
+    color: white;
+}
+
+.websitebox {
+    background-color: #D863A1;
+    color: white;
+}
+
+.sales {
+    background-color: #B0C926;
+    color: white;
 }
